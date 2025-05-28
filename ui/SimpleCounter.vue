@@ -9,13 +9,17 @@ import { ref } from "vue";
 const num = ref(0);
 
 function plus() {
-  num.value++;
+  ++num.value;
 }
 
 function minus() {
-  if (num.value == 0) {
+  if (num.value === 0) {
     return 0;
   }
-  return num.value--;
+  return --num.value;
 }
 </script>
+
+<style>
+
+</style>

@@ -4,7 +4,8 @@
   "main": "aa.js",
   "type": "module",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "dev": "vite"
   },
   "keywords": [],
   "author": "",
