@@ -1,4 +1,4 @@
-import { Cart, Product } from "../cart.js";
+import { Cart, Product } from "./cart.js";
 
 describe("購物車計算機", () => {
   test("可以新增商品(名字,價格)", () => {
